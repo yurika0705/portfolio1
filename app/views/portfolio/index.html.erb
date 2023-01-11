@@ -42,27 +42,48 @@
       <nav class="gnav">
         <div class="gnav-inner">
           <ul class="gnav-list">
+            <li class="gnav-item"><a href="#about">Profile</a></li>
             <li class="gnav-item"><a href="#works">Works</a></li>
             <li class="gnav-item"><a href="#skill">Skill</a></li>
-            <li class="gnav-item"><a href="#about">Profile</a></li>
             <li class="gnav-item"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
       <!-- /gnav -->
+      
+      <!-- profile -->
+      <section class="about section" id="about">
+        <div class="inner">
+          <h2 class="title">Profile</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <%= image_tag "profile2.jpg"%>
+            </p>
+            <div class="profile-body">
+              <p>
+                はじめまして。私は鶴田佑理香(<a href="https://github.com/yurika0705">@yurika0705</a>)と申します。<br>
+                これまで美容サロンの営業業務や通信事業でのカスタマー業務に従事しておりました。<br>
+                職場のシステム部の方を見てエンジニアに興味を持ち転職を決意。<br>
+                オンラインスクール卒業後、独学でプログラミングを学習中です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /profile -->
 
       <!-- works -->
       <section class="works section" id="works">
         <div class="inner">
           <h2 class="title">works</h2>
           <div class="works-list">
-            <a class="works-item" href="works-template.html">
-              <p class="works-img"><img src="../images/works-sample-thumb.jpg" alt="" /></p>
+            <a class="works-item" href="https://food-truck.onrender.com">
+              <p class="works-img"><%= image_tag"food-truck.jpg" %></p>
               <p class="works-name">FOOD-TRUCK</p>
-              <p class="works-info">Design / Coding(Responsive)</p>
+              <p class="works-info">Design / Coding / </p>
             </a>
-            <a class="works-item" href="works-template.html">
-              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+            <a class="works-item" href="54.64.52.224">
+              <p class="works-img"><%= image_tag "furima-38710.jpg" %></p>
               <p class="works-name">furima-38710</p>
               <p class="works-info">Design / Coding(Responsive) / WordPress</p>
             </a>
@@ -79,47 +100,15 @@
             <div class="skill-item">
               <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
               <div class="skill-body">
-                <h3 class="skill-name">HTML5/CSS3</h3>
+                <h3 class="skill-name">学習内容</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  Ruby/Ruby on Rails, Javascript, MySQL, Git/GitHub, AWS
               </div>
             </div>
             <div class="skill-item">
               <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
               <div class="skill-body">
-                <h3 class="skill-name">WordPress</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">JavaScript</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">Photoshop</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">Illustrator</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">XD</h3>
+                <h3 class="skill-name"></h3>
                 <p class="skill-text">
                   テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
               </div>
@@ -129,35 +118,15 @@
       </section>
       <!-- /skill -->
 
-      <!-- profile -->
-      <section class="about section" id="about">
-        <div class="inner">
-          <h2 class="title">Profile</h2>
-          <div class="profile">
-            <p class="profile-img">
-              <img tag="profile.jpeg">
-            </p>
-            <div class="profile-body">
-              <p>
-                はじめまして。私は鶴田佑理香と申します。<br>
-                これまで美容サロンの営業業務や通信事業でのBtoBカスタマー業務に従事しておりました。<br>
-                オンラインスクール卒業後、独学でプログラミング学習をしております。
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /profile -->
-
       <!-- contact -->
       <section class="contact section" id="contact">
         <div class="inner">
           <h2 class="title">Contact</h2>
           <p class="lead">
-            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+            お問い合わせは、<br class="sp-only">Lineかメールにてお願いいたします。
           </p>
           <div class="contact-list">
-            <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
-            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Line</a>
             <span class="contact-item">yuricka.0705.0629@gmail.com</span>
           </div>
         </div>
