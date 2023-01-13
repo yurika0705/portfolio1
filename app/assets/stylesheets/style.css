@@ -4,7 +4,7 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
-  background-image: url("background2.jpg");
+  background-image: url("background3.jpg");
   background-repeat: repeat;
 }
 
@@ -69,14 +69,19 @@ li {
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 65vh;
   text-align: center;
-  background-image: radial-gradient(white, #DCC2FF 90%);
+  margin: 100px 0;
 }
 
 .header-inner {
   padding: 0 40px;
+}
+
+.header-icon {
+  margin-left: 140px;
+  height: 200px;
+  width: 200px;
 }
 
 .header-title {
@@ -171,6 +176,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  justify-content: center;
 }
 
 .works-item {
@@ -210,6 +216,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: -50px;
+  justify-content: center;
 }
 
 .skill-item {
@@ -385,10 +392,17 @@ li {
   /*  header */
   .header {
     height: 60vh;
+    margin: 0;
   }
 
   .header-inner {
     padding: 0 20px;
+  }
+
+  .header-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
   }
 
   .header-title {
@@ -427,6 +441,11 @@ li {
 
   .gnav-item a {
     font-size: 12px;
+  }
+
+  .gnav-item img {
+    width: 20px;
+    height: 20px;
   }
 
   .gnav-item a:after {
