@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/', to: 'portfolio#index'
+  root :to => 'portfolio#index'
 end
