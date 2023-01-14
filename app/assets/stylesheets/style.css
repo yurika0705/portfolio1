@@ -51,7 +51,7 @@ li {
  見出し
 ---------------------------------*/
 .title {
-  font-size: 34px;
+  font-size: 50px;
   line-height: 1;
   margin-bottom: 40px;
   text-align: center;
@@ -79,21 +79,21 @@ li {
 }
 
 .header-icon {
-  margin-left: 140px;
+  margin-left: 50px;
   height: 200px;
   width: 200px;
 }
 
 .header-title {
   font-family: "Dancing Script", cursive;
-  font-size: 90px;
+  font-size: 120px;
   line-height: 1.2;
   margin-bottom: 20px;
   color: #f5b5d5;
 }
 .header-subtitle {
   font-family: "Amatic SC", cursive;
-  font-size: 50px;
+  font-size: 80px;
   line-height: 1;
   letter-spacing: .08em;
 }
@@ -194,16 +194,14 @@ li {
   margin-right: 0;
 }
 
-.works-img img {
+.works-img img{
   border: 1px solid #e6e6e6;
-  width: 300px;
+  width: 100%;
   height: 200px;
 }
 
-.works-name {
+.works-security {
   font-size: 20px;
-  font-weight: bold;
-  margin-top: 8px;
 }
 
 .works-info {
@@ -214,34 +212,34 @@ li {
  Skill
 ---------------------------------*/
 .skill-list {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-bottom: -50px;
   justify-content: center;
 }
+.skill-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100px;
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px 0;
+}
 
 .skill-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   width: 48%;
   margin-bottom: 50px;
 }
 
-.skill-img {
-  width: 60px;
-  height: auto;
-  margin-right: 20px;
-}
-
-.skill-body {
-  flex: 1;
-}
-
 .skill-name {
-  margin-bottom: 3px;
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+.skill-text {
+  text-align: center;
+}
+
 
 /*--------------------------------
  profile
@@ -279,10 +277,6 @@ li {
   text-align: center;
 }
 
-.contact-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .contact-text {
   margin-top: 10px;
 }
@@ -316,49 +310,6 @@ li {
   color: #797979;
 }
 
-/*--------------------------------
- 下層：Worksページ
----------------------------------*/
-.article {
-  padding: 80px 0;
-}
-
-.article-inner {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.article-title {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.article-img {
-  margin-bottom: 20px;
-}
-
-.article-body {
-  max-width: 720px;
-  margin: 0 auto;
-  margin-bottom: 80px;
-}
-
-.article-info-title {
-  font-size: 15px;
-}
-
-.article-body img {
-  margin-bottom: 30px;
-}
-
-.article-body p {
-  margin-bottom: 30px;
-}
-
-.home-link {
-  text-align: center;
-}
 
 /*media Queries 767
 ----------------------------------------------------*/
